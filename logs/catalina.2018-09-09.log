@@ -43,3 +43,11 @@
 09-Sep-2018 15:48:11.267 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
 09-Sep-2018 15:48:11.274 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 09-Sep-2018 15:48:11.276 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1648 ms
+09-Sep-2018 15:55:46.264 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Sep-2018 15:55:46.265 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+09-Sep-2018 15:55:46.321 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+09-Sep-2018 15:55:46.372 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Sep-2018 15:55:46.397 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+09-Sep-2018 15:55:46.400 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+09-Sep-2018 15:55:46.402 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+09-Sep-2018 15:55:46.403 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
