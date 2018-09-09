@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>Live</servlet-name>
+    <servlet-class>com.jwt.servlets.Live</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Live</servlet-name>
+    <url-pattern>/live</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Mobile</servlet-name>
+    <servlet-class>com.jwt.servlets.Mobile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Mobile</servlet-name>
+    <url-pattern>/live/mobile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Dash</servlet-name>
+    <servlet-class>com.jwt.servlets.Dash</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dash</servlet-name>
+    <url-pattern>/live/dash</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Get</servlet-name>
+    <servlet-class>com.jwt.servlets.Get</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Get</servlet-name>
+    <url-pattern>/get</url-pattern>
+  </servlet-mapping>
+</web-app>

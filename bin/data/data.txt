@@ -1,0 +1,2 @@
+RIN:I:1,Battery:T:13.5,PID:C:0-.5~1-0~2-2~3-1~4-0~5-0.5~5-.5~5-.5~5-.5~5-.5~5-.5,image:F:image.jpg,Text:T:here,video:F:test.mp4
+RIN:I:2,Battery:T:12.5,PID:C:0-1~1-0,Text:T:here,image:F:image.jpg

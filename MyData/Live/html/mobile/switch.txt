@@ -1,0 +1,10 @@
+<div class="item">
+<h2>@@</h2>
+<div style="position:relative;top:-10px;">
+<label class="switch">
+  <input id="@@" type="checkbox" onclick="switchChanged(this.id)" !!>
+  <span class="slider"></span>
+</label>
+</div>
+</div>
+<br/>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+    font-family: verdana;
+    font-size: 300%;
+}
+div {
+
+    width: inherit;
+  text-align: left;
+}
+h2 {
+    font-family: Arial;
+    font-size: 1000%;
+    margin: 0px;
+}
+p {
+  font-family:verdana;
+  margin:0px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#home").click(function(){
+        var url = "http://localhost/";
+		$(location).attr('href',url)
+    });
+});
+</script>
+</head>
+<body>
+
+<div style="border:1px solid #287982;background-color: #287982;">
+<H1 id="home" style="position:relative;top:-10px;left:20px;">Dayton Tournament</H1>
+</div>
+
+<div style="color:#404040;text-align: center;background-color:#ebebeb;">
+<p style="position:relative;left:0px;top:20px;">currently on</p>
+<p style="position:relative;left:0px;top:20px;">match</p>
+<h2 style="color:Black;">&&</h2>
+</div>
+
+</body>
+</html>
