@@ -1,1 +1,0 @@
-Light_1-switch,Light_2-switch,break-break,Door-button

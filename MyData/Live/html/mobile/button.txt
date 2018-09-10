@@ -1,5 +1,0 @@
-<div class="item">
-<div class="clickButtonBorder" style="position:relative;">
-<button id="@@" class="clickButton" onclick=buttonClicked(this.id)>@@</button>
-</div>
-</div>
