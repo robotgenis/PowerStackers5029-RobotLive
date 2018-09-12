@@ -12,6 +12,8 @@ To install the server onto a computer download the repository. Put it in a folde
 
 To start the server go into the "bin" folder and run the file called "startup.bat".
 
+To access the website you can type "localhost" into you web browser. If you want to access the website from another computer go to command prompt. Type in "ipconfig" and look for your "IPv4 address". Type this into a browser on another computer to access the website.
+
 To stop the server go into the "bin" folder and run the file called "shutdown.bat". Just closing the window does not stop the server. 
 
 ### Phone
