@@ -16,4 +16,4 @@ To stop the server go into the "bin" folder and run the file called "shutdown.ba
 
 ### Phone
 
-Infomation about using the phone is found in the [info](/info) folder.
+Infomation about using the phone is found in the [info](/info/README.md) folder.
