@@ -6,6 +6,6 @@ Instruction coming soon!
 
 There are two parts to the Robot Live software: The phone sending the data and the server reciving the data. 
 
-###Server
+### Server
 
 The server is apache Tomcat servrer made and tested on a windows computer. This repository
