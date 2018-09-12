@@ -26,7 +26,7 @@ To stop the server go into the "bin" folder and run the file called "shutdown.ba
 
 #### Unistalling
 
-To unistall the program just delete the folder after you stop the server. Running the unistaller is not needed
+To unistall the program just delete the folder after you stop the server. Running the unistaller is not needed.
 
 ### Phone
 
