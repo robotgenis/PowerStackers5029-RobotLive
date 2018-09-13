@@ -1,11 +1,11 @@
 # Phone Information
 
+To install the system to android studios
 
 
 
 
-
-## Examples
+## Code Examples
 
 ### Simple Example
 
