@@ -31,3 +31,7 @@ To unistall the program just delete the folder after you stop the server. Runnin
 ### Phone
 
 Infomation about using the phone is found in the [info](/info/README.md) folder.
+
+# Issues
+
+Any issues can be commented on github or emailed to robotgenis@gmail.com
