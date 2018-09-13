@@ -61,15 +61,15 @@ public class Robot extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		System.out.println("Recive data");
+		//System.out.println("Recive data");
 
 		ArrayList<String> names = new ArrayList<String>();
 		ArrayList<String> data = new ArrayList<String>();
 
 		Collection<Part> parts = request.getParts();
 		for (Part filePart : parts) {
-			System.out.println(filePart.getName());
-			System.out.println(filePart.getContentType());
+			//System.out.println(filePart.getName());
+			//System.out.println(filePart.getContentType());
 			switch (filePart.getContentType()) {
 			case "text/plain; charset=UTF-8":
 				names.add(filePart.getName());
@@ -201,7 +201,9 @@ public class Robot extends HttpServlet {
 			List<String> lines = new ArrayList<String>();
 			String line = null;
 			while ((line = bufferedReader.readLine()) != null) {
-				lines.add(line);
+				if(line != ""){
+        			lines.add(line);
+        		}
 			}
 			bufferedReader.close();
 			return lines.toArray(new String[lines.size()]);

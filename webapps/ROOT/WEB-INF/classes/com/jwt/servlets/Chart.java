@@ -109,7 +109,9 @@ public class Chart extends HttpServlet {
         	List<String> lines = new ArrayList<String>();
         	String line = null;
         	while ((line = bufferedReader.readLine()) != null) {
-        		lines.add(line);
+        		if(!line.equals("")){
+        			lines.add(line);
+        		}
         	}
         	bufferedReader.close();
         	return lines.toArray(new String[lines.size()]);
