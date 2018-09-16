@@ -22,7 +22,31 @@ To install the system to android studios follow these instuctions.
 
 ### ftc_app Example
 
-Coming Soon!
+```
+import com.qualcomm.robotcore.eventloop.opmode.OpMode;
+
+import RobotLiveDataSending.RobotLiveData;
+import RobotLiveDataSending.RobotLiveSend;
+
+public class test extends OpMode{
+    
+    RobotLiveData data;
+    
+    @Override
+    public void init() {
+        
+    }
+
+    @Override
+    public void loop() {
+        data = new RobotLiveData(0);
+        
+        data.addStringData("Test", "Data works");
+        
+        RobotLiveSend.send(data, "http://192.168.200.113");
+    }
+}
+```
 
 ### Simple Example
 
