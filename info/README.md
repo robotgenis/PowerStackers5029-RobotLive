@@ -7,18 +7,22 @@ To install the system to android studios
 
 ## Code Examples
 
+### ftc_app Example
+
+Coming Soon!
+
 ### Simple Example
 
 ```
-    //Data object 
-    //to add numbers to string use "String.valueOf(number);"
-    RobotLiveData data = new RobotLiveData(1);
+    		//Data object 
+		//to add numbers to string use "String.valueOf(number);"
+		RobotLiveData data = new RobotLiveData(1);
 
-    //String/text
-    data.addStringData("Text", "here is text data");
+		//String/text
+		data.addStringData("Text", "here is text data");
 		
-    //Create and add numbers to two arrays for chart
-    ArrayList<String> x = new ArrayList<>();
+		//Create and add numbers to two arrays for chart
+		ArrayList<String> x = new ArrayList<>();
 		ArrayList<String> y = new ArrayList<>();
 		x.add("0");
 		y.add("0");
@@ -37,13 +41,13 @@ To install the system to android studios
 		data.addLiveImage(new File("C:/Users/Brandon/Documents/image.jpg"));
 		
 		//send data
-		RobotLiveSend.send(data);
+		RobotLiveSend.send(data,"http://localhost");
 ```
 
 
 ### Manual Looping Example
 ```
-    RobotLiveData data;
+		RobotLiveData data;
 		
 		data = new RobotLiveData(0);
 		
@@ -60,7 +64,7 @@ To install the system to android studios
 		
 		data.addStringData("Text", "here is text data");
 		
-		RobotLiveSend.send(data);
+		RobotLiveSend.send(data,"http://localhost");
 		
 		
 		
@@ -94,7 +98,7 @@ To install the system to android studios
 			data.addStringData("Text", "here is text data");
 			
 			
-			RobotLiveSend.send(data);
+			RobotLiveSend.send(data,"http://localhost");
 			
 			
 			try {
@@ -112,6 +116,6 @@ To install the system to android studios
 		
 		data.addLiveImage(new File("C:/Users/Brandon/Documents/image.jpg"));
 		
-		RobotLiveSend.send(data);
+		RobotLiveSend.send(data,"http://localhost");
 
 ```
