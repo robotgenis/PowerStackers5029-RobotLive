@@ -1,9 +1,16 @@
 # Phone Information
 
-To install the system to android studios
+To install the system to android studios follow these instuctions.
 
+1) Navigate to the "info" folder and copy the .jar file in this folder
 
+2) Go to your ftc_app and go to the file view
 
+3) At the top of the view click on the dropdown and click on "Project"
+
+4) Paste the .jar file into the "libs" folder
+
+5) Left click on the .jar file and 
 
 ## Code Examples
 
