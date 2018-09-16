@@ -36,17 +36,32 @@ public class GetFile extends HttpServlet {
 		
 		
 		String file = request.getParameter("name");
+//		System.out.println(file);
 		if(file.endsWith(".jpg")){
+//			response.setContentType("image/jpeg");
+//			BufferedImage bi = null;
+//			try {
+//		    	bi = ImageIO.read(new File("files/" + file));
+//				OutputStream out = response.getOutputStream();
+//				ImageIO.write(bi, "jpeg", out);
+//				//out.flush();
+//				out.close();
+//			} catch (IOException e) {
+//			}
 			response.setContentType("image/jpeg");
-			BufferedImage bi = null;
-			try {
-		    	bi = ImageIO.read(new File("files/" + file));
-				OutputStream out = response.getOutputStream();
-				ImageIO.write(bi, "jpeg", out);
-				//out.flush();
-				out.close();
-			} catch (IOException e) {
-			}
+	        ServletOutputStream out = response.getOutputStream();
+	        FileInputStream fin = new FileInputStream("files/" + file);
+
+	        byte [] buf = new byte[4096];
+	        int read;
+	        while((read = fin.read(buf)) != -1)
+	        {
+	            out.write(buf, 0, read);
+	        }
+
+	        fin.close(); 
+	        out.flush();
+	        out.close();
 		}else if(file.endsWith(".mp4")){
 			response.setContentType("video/mp4");
 	        ServletOutputStream out = response.getOutputStream();
