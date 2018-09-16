@@ -2,11 +2,11 @@
 
 Robot Live is debbuging software for FIRST Tech Challenge and other java applications.
 
-## Tutorial
+# Tutorial
 
 There are two parts to the Robot Live software: The phone formatting and sending the data to the server and the server which saves the data and hosts the website.
 
-### Server
+## Server
 
 #### Install
 
@@ -28,7 +28,7 @@ To stop the server go into the "bin" folder and run the file called "shutdown.ba
 
 To unistall the program just delete the folder after you stop the server. Running the unistaller is not needed.
 
-### Phone
+## Phone
 
 Infomation about using the phone is found in the [info](/info/README.md) folder.
 
