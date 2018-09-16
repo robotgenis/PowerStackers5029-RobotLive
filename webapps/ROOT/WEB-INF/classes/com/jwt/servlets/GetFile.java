@@ -43,7 +43,7 @@ public class GetFile extends HttpServlet {
 		    	bi = ImageIO.read(new File("files/" + file));
 				OutputStream out = response.getOutputStream();
 				ImageIO.write(bi, "jpeg", out);
-				out.flush();
+				//out.flush();
 				out.close();
 			} catch (IOException e) {
 			}
