@@ -2,15 +2,21 @@
 
 To install the system to android studios follow these instuctions.
 
-1) Navigate to the "info" folder and copy the .jar file in this folder
+1) Go to your android studios ftc_app and click **File -> New -> New Module**
 
-2) Go to your ftc_app and go to the file view
+2) A window will pop up and select **Import .JAR/.AAR Package** You may have to scroll down.
 
-3) At the top of the view click on the dropdown and click on "Project"
+3) On the next page after the **File name** line click on the three dots. Locate this repository that was downloaded onto your computer. Goto the **Info** folder and choose the **.jar** file. 
 
-4) Paste the .jar file into the "libs" folder
+4) Then click **Finish**. Wait a few seconds for the project to build and you should see a folder named **RobotLiveLibrary_vX.X.X**.
 
-5) Left click on the .jar file and 
+5) Next click **File -> Project Structure**. This should be right below settings.
+
+6) Under **Modules** click on **TeamCode**. There should be tabs accross the top, click on **Dependencies**.
+
+7) On the right click on the **+** button. A list should pop up, click on **Module dependency**
+
+8) Select the module named **RobotLiveLibrary_vX.X.X**. Click **Ok** till all windows disappear. The gradle should build again and you can now use the RobotLive libraries in the TeamCode section of your app. 
 
 ## Code Examples
 
