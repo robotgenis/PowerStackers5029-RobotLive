@@ -31,7 +31,7 @@ public class Image extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("image/jpeg");
 
-		BufferedImage bi = (BufferedImage) StaticImage.i;
+		BufferedImage bi = (BufferedImage) StaticImage.live;
 		OutputStream out = response.getOutputStream();
 		ImageIO.write(bi, "jpeg", out);
 		out.close();

@@ -81,7 +81,7 @@ public class Robot extends HttpServlet {
 				InputStream fileContent = filePart.getInputStream();
 				Image i = ImageIO.read(fileContent);
 				if(filePart.getName().equals("LIVE")){
-					StaticImage.i = i;
+					StaticImage.live = i;
 				}else{
 					names.add(filePart.getName());
 					data.add("F:" + fileName);
