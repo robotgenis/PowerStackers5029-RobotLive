@@ -2,6 +2,8 @@
 
 Robot Live is debbuging software for FIRST Tech Challenge and other java applications.
 
+**Project still in testing phase, everything should work but not everything is tested**
+
 # Tutorial
 
 There are two parts to the Robot Live software: The phone formatting and sending the data to the server and the server which saves the data and hosts the website.
