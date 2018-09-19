@@ -39,7 +39,7 @@ public class test extends OpMode{
 
     @Override
     public void loop() {
-        data = new RobotLiveData(0);
+        data = RobotLiveSend.createNewRun("http://192.168.200.113");
         
         data.addStringData("Test", "Data works");
         
@@ -53,7 +53,7 @@ public class test extends OpMode{
 ```
     		//Data object 
 		//to add numbers to string use "String.valueOf(number);"
-		RobotLiveData data = new RobotLiveData(1);
+		RobotLiveData data = RobotLiveSend.createNewRun("http://192.168.200.113");
 
 		//String/text
 		data.addStringData("Text", "here is text data");
@@ -86,7 +86,7 @@ public class test extends OpMode{
 ```
 		RobotLiveData data;
 		
-		data = new RobotLiveData(0);
+		data = RobotLiveSend.createNewRun("http://192.168.200.113");
 		
 		
 		
@@ -116,8 +116,6 @@ public class test extends OpMode{
 		
 		//Loop to simulate multiple data sends under the same test
 		for(int i = 0; i < 100; i++){
-			//empty data
-			data = new RobotLiveData(0);
 			
 			
 			//Empty arraylist
@@ -146,8 +144,6 @@ public class test extends OpMode{
 			}
 		}
 		
-		
-		data = new RobotLiveData(0);
 		
 		data.addFile("video",new File("C:/Users/Brandon/Documents/test.mp4"));
 		
