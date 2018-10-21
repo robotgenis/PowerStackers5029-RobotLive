@@ -1,12 +1,8 @@
 package com.jwt.servlets;
 
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -29,7 +25,7 @@ public class Root extends HttpServlet {
 		String[] data;
 		
 		//First half of HTML
-		data = readFile("libs/root.txt");
+		data = Robot.readFile("libs/root.txt");
 		for(String line : data){
 			out.println(line);
 		}
@@ -40,24 +36,6 @@ public class Root extends HttpServlet {
 //			out.println(line);
 //		}
 //		out.close();
-	}
-	
-	private String[] readFile(String filename){
-		try{
-			FileReader fileReader = new FileReader(filename);
-        	BufferedReader bufferedReader = new BufferedReader(fileReader);
-        	List<String> lines = new ArrayList<String>();
-        	String line = null;
-        	while ((line = bufferedReader.readLine()) != null) {
-        		if(line != ""){
-        			lines.add(line);
-        		}
-        	}
-        	bufferedReader.close();
-        	return lines.toArray(new String[lines.size()]);
-		}catch(Exception e){
-			return null;
-		}
 	}
 
 

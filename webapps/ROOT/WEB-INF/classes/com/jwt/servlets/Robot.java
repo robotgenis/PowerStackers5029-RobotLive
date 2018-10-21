@@ -194,14 +194,14 @@ public class Robot extends HttpServlet {
 
 	}
 
-	private String[] readFile(String filename) {
+	public static String[] readFile(String filename) {
 		try {
 			FileReader fileReader = new FileReader(filename);
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
 			List<String> lines = new ArrayList<String>();
 			String line = null;
 			while ((line = bufferedReader.readLine()) != null) {
-				if(line != ""){
+				if(!line.equals("")){
         			lines.add(line);
         		}
 			}

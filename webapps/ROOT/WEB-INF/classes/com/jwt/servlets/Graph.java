@@ -1,11 +1,8 @@
 package com.jwt.servlets;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -32,12 +29,12 @@ public class Graph extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-PrintWriter out = response.getWriter();
+		PrintWriter out = response.getWriter();
 		
 		String[] data;
 		
 		//Put in chart
-		data = readFile("data/data.txt");
+		data = Robot.readFile("data/data.txt");
 //		ArrayList<String> categories = new ArrayList<String>();
 //		//get Chart categories
 //		for(String run : data){
@@ -80,24 +77,6 @@ PrintWriter out = response.getWriter();
 			}
 		}
 		out.close();
-	}
-
-	private String[] readFile(String filename) {
-		try {
-			FileReader fileReader = new FileReader(filename);
-			BufferedReader bufferedReader = new BufferedReader(fileReader);
-			List<String> lines = new ArrayList<String>();
-			String line = null;
-			while ((line = bufferedReader.readLine()) != null) {
-				if(line != ""){
-        			lines.add(line);
-        		}
-			}
-			bufferedReader.close();
-			return lines.toArray(new String[lines.size()]);
-		} catch (Exception e) {
-			return null;
-		}
 	}
 	
 	/**

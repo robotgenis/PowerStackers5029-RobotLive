@@ -1,11 +1,8 @@
 package com.jwt.servlets;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -36,7 +33,7 @@ public class Signal extends HttpServlet {
 		
 		
 		if(action.equals("create")){
-			String[] lines = readFile("data/data.txt");
+			String[] lines = Robot.readFile("data/data.txt");
 			int greatest = 0;
 			for(String line : lines){
 				String[] data = line.split(",");
@@ -54,25 +51,6 @@ public class Signal extends HttpServlet {
 			//String name = request.getParameter("name");
 		}
 	}
-
-	private String[] readFile(String filename) {
-		try {
-			FileReader fileReader = new FileReader(filename);
-			BufferedReader bufferedReader = new BufferedReader(fileReader);
-			List<String> lines = new ArrayList<String>();
-			String line = null;
-			while ((line = bufferedReader.readLine()) != null) {
-				if(line != ""){
-        			lines.add(line);
-        		}
-			}
-			bufferedReader.close();
-			return lines.toArray(new String[lines.size()]);
-		} catch (Exception e) {
-			return null;
-		}
-	}
-	
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
