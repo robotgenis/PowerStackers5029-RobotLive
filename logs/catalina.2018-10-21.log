@@ -52,3 +52,112 @@
 21-Oct-2018 10:19:45.674 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 21-Oct-2018 10:19:45.676 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
 21-Oct-2018 10:19:45.677 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+21-Oct-2018 10:37:37.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+21-Oct-2018 10:37:37.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+21-Oct-2018 10:37:37.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+21-Oct-2018 10:37:37.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-Oct-2018 10:37:37.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-Oct-2018 10:37:37.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+21-Oct-2018 10:37:37.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_121\jre
+21-Oct-2018 10:37:37.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+21-Oct-2018 10:37:37.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Oct-2018 10:37:37.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive
+21-Oct-2018 10:37:37.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive
+21-Oct-2018 10:37:37.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\conf\logging.properties
+21-Oct-2018 10:37:37.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2018 10:37:37.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2018 10:37:37.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2018 10:37:37.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive
+21-Oct-2018 10:37:37.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive
+21-Oct-2018 10:37:37.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\temp
+21-Oct-2018 10:37:37.170 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Users\Brandon\AppData\Local\Android\sdk;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Users\Brandon\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;.]
+21-Oct-2018 10:37:37.249 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+21-Oct-2018 10:37:37.337 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Oct-2018 10:37:37.340 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Oct-2018 10:37:37.342 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Oct-2018 10:37:37.342 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 418 ms
+21-Oct-2018 10:37:37.364 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Oct-2018 10:37:37.365 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+21-Oct-2018 10:37:37.384 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\Live.war]
+21-Oct-2018 10:37:37.635 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\Live.war] has finished in [251] ms
+21-Oct-2018 10:37:37.636 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\RobotLive.war]
+21-Oct-2018 10:37:37.663 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\RobotLive.war] has finished in [27] ms
+21-Oct-2018 10:37:37.664 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\ROOT.war]
+21-Oct-2018 10:37:37.704 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\ROOT.war] has finished in [40] ms
+21-Oct-2018 10:37:37.705 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\apache]
+21-Oct-2018 10:37:37.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\apache] has finished in [15] ms
+21-Oct-2018 10:37:37.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\docs]
+21-Oct-2018 10:37:37.735 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\docs] has finished in [15] ms
+21-Oct-2018 10:37:37.736 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\examples]
+21-Oct-2018 10:37:38.034 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\examples] has finished in [297] ms
+21-Oct-2018 10:37:38.036 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\host-manager]
+21-Oct-2018 10:37:38.075 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\host-manager] has finished in [39] ms
+21-Oct-2018 10:37:38.079 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\manager]
+21-Oct-2018 10:37:38.108 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\manager] has finished in [28] ms
+21-Oct-2018 10:37:38.116 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+21-Oct-2018 10:37:38.124 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Oct-2018 10:37:38.128 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 785 ms
+21-Oct-2018 10:38:28.171 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+21-Oct-2018 10:38:28.254 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\ROOT.war]
+21-Oct-2018 10:38:28.475 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\ROOT.war] has finished in [221] ms
+21-Oct-2018 10:38:29.346 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Oct-2018 10:38:29.348 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+21-Oct-2018 10:38:29.437 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Oct-2018 10:38:29.477 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Oct-2018 10:38:29.497 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+21-Oct-2018 10:38:29.499 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Oct-2018 10:38:29.501 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+21-Oct-2018 10:38:29.503 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+21-Oct-2018 10:38:30.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+21-Oct-2018 10:38:30.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+21-Oct-2018 10:38:30.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+21-Oct-2018 10:38:30.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-Oct-2018 10:38:30.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-Oct-2018 10:38:30.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+21-Oct-2018 10:38:30.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_121\jre
+21-Oct-2018 10:38:30.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+21-Oct-2018 10:38:30.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Oct-2018 10:38:30.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive
+21-Oct-2018 10:38:30.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive
+21-Oct-2018 10:38:30.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\conf\logging.properties
+21-Oct-2018 10:38:30.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2018 10:38:30.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2018 10:38:30.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2018 10:38:30.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive
+21-Oct-2018 10:38:30.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive
+21-Oct-2018 10:38:30.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\temp
+21-Oct-2018 10:38:30.719 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Users\Brandon\AppData\Local\Android\sdk;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Users\Brandon\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;.]
+21-Oct-2018 10:38:30.821 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+21-Oct-2018 10:38:30.924 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Oct-2018 10:38:30.927 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Oct-2018 10:38:30.930 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Oct-2018 10:38:30.931 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 560 ms
+21-Oct-2018 10:38:30.957 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Oct-2018 10:38:30.957 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+21-Oct-2018 10:38:30.983 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\Live.war]
+21-Oct-2018 10:38:31.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\Live.war] has finished in [314] ms
+21-Oct-2018 10:38:31.301 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\RobotLive.war]
+21-Oct-2018 10:38:31.341 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\RobotLive.war] has finished in [40] ms
+21-Oct-2018 10:38:31.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\ROOT.war]
+21-Oct-2018 10:38:31.396 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\ROOT.war] has finished in [52] ms
+21-Oct-2018 10:38:31.399 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\apache]
+21-Oct-2018 10:38:31.416 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\apache] has finished in [17] ms
+21-Oct-2018 10:38:31.417 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\docs]
+21-Oct-2018 10:38:31.435 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\docs] has finished in [16] ms
+21-Oct-2018 10:38:31.436 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\examples]
+21-Oct-2018 10:38:31.723 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\examples] has finished in [287] ms
+21-Oct-2018 10:38:31.728 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\host-manager]
+21-Oct-2018 10:38:31.753 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\host-manager] has finished in [25] ms
+21-Oct-2018 10:38:31.757 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\manager]
+21-Oct-2018 10:38:31.782 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Brandon\Documents\_FTC\PowerStackers5029-RobotLive\webapps\manager] has finished in [25] ms
+21-Oct-2018 10:38:31.787 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+21-Oct-2018 10:38:31.797 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Oct-2018 10:38:31.801 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 869 ms
+21-Oct-2018 10:45:59.914 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Oct-2018 10:45:59.916 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+21-Oct-2018 10:46:00.025 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Oct-2018 10:46:00.063 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Oct-2018 10:46:00.099 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+21-Oct-2018 10:46:00.100 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Oct-2018 10:46:00.102 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+21-Oct-2018 10:46:00.103 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

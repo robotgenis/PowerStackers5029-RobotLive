@@ -68,8 +68,8 @@ public class Robot extends HttpServlet {
 
 		Collection<Part> parts = request.getParts();
 		for (Part filePart : parts) {
-			//System.out.println(filePart.getName());
-			//System.out.println(filePart.getContentType());
+			System.out.println(filePart.getName());
+			System.out.println(filePart.getContentType());
 			switch (filePart.getContentType()) {
 			case "text/plain; charset=UTF-8":
 				names.add(filePart.getName());
