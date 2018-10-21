@@ -86,10 +86,10 @@ public class Chart extends HttpServlet {
 				}
 				if(item.startsWith("C,")){
 					out.println("<button class=\"button\" onclick=\"matchInfo = " + chartData[trial][0] + ";dataType = '" + item.split(",")[1].split(":")[0] + "'\">Chart</button>");
-				}else if(item.startsWith("F")){
+				}else if(item.startsWith("F,")){
 					out.println("<a class=\"button\"  target=\"_blank\" href=\"/file?name=" + item.split(",")[1].split(":")[2] + "\">Image/Video</a>");
 				}else{
-					out.println("<p>" + chartData[trial][category] + "</p>");
+					out.println("<p>" + item + "</p>");
 				}
 				out.println("</td>");
 			}

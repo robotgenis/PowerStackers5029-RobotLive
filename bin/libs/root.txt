@@ -142,7 +142,7 @@ var dataRefreshRate = 500;
        var data = new google.visualization.DataTable();
        data.addColumn('number', 'Time');
        data.addColumn('number', dataType);
-
+	//console.log(lineGraph);
        data.addRows(lineGraph);
 
        var options = {
@@ -171,7 +171,7 @@ function dataChange(data){
 	dataSplit = data.split(":");
 	lineGraphData = dataSplit[2].split("~");
 	for(var lineGraphIndex in lineGraphData){
-		lineGraphData[lineGraphIndex] = lineGraphData[lineGraphIndex].split("-");
+		lineGraphData[lineGraphIndex] = lineGraphData[lineGraphIndex].split("|");
 		for(var lineGraphItem in lineGraphData[lineGraphIndex]){
 			lineGraphData[lineGraphIndex][lineGraphItem] = parseFloat(lineGraphData[lineGraphIndex][lineGraphItem]);
 		}
